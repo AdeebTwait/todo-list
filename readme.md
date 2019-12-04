@@ -2,6 +2,8 @@
 Simple ToDo list application built with laravel 5.8.
 
 
+
+
 ### The list page
 - After logging in, you will see the list that contains your tasks.
 - There is a text field on the top of the list where you can create new tasks.
@@ -11,6 +13,8 @@ Simple ToDo list application built with laravel 5.8.
 ![Screen Shot 2019-12-04 at 2 53 28 PM](https://user-images.githubusercontent.com/16962426/70144717-34d5d580-16a7-11ea-9ab2-4b52458687e9.png)
 
 
+
+
 ### The profile page
 - On this page you can see your profile data and update it.
 
@@ -18,10 +22,12 @@ Simple ToDo list application built with laravel 5.8.
 
 
 
+
+
 ### Notes
 - All of the created tables and columns were created by migrations, so please don't forget to run
 
-`php artisan migrate`
+```php artisan migrate```
 
 - There is some deep security issues, but I didn't care much about it since this is a "simple" and quick-made app.
 
