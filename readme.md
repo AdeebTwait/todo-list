@@ -27,7 +27,9 @@ Simple ToDo list application built with laravel 5.8.
 ### Notes
 - All of the created tables and columns were created by migrations, so please don't forget to run
 
-```php artisan migrate```
+```bash
+php artisan migrate
+```
 
 - There is some deep security issues, but I didn't care much about it since this is a "simple" and quick-made app.
 
