@@ -9,7 +9,7 @@
 @section('content')
     <div id="container">
       <h1 class="list-header">{{ auth()->user()->name }}'s List<i class="fa fa-plus"></i></h1>
-      <input class="insert-item" type="text" name="newToDo" placeholder="Add New Todo">
+      <input class="insert-item" type="text" name="newToDo" placeholder="Add New Task (Press Enter)">
       <ul class="list-items">
       	@foreach ($tasks as $task)
       		<li data-id="{{$task->id}}" class="list-item @if ($task->done) completed @endif">

@@ -6,7 +6,7 @@
         <div class="col-md-8">
             @include('partials._messages')
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+                <div class="card-header">{{ __('Your Profile') }}</div>
                 <div class="card-body">
                     <form method="POST" action="{{ route('user.update', auth()->user()->id) }}">
                         @csrf
